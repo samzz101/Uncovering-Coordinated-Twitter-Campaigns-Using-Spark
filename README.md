@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Uncovering-Coordinated-Twitter-Campaigns
 
 ## Introduction
@@ -112,5 +111,4 @@ Despite facing limitations and technical challenges during the project, an end-t
 As mentioned, due to pricing restrictions, it was not possible to gather data for some hashtags, which limited the scope of the analysis. In the future, exploring cost-effective solutions to collect a larger volume of data could enable more comprehensive and accurate analyses. Currently, batch data processing was utilized for the analysis. Moving forward, investigating the feasibility of real-time streaming data processing could allow for more timely analysis and insights, providing a more dynamic view of trend developments as they occur.
 
 Additionally, incorporating advanced machine learning and deep learning techniques could enhance the analysis. Techniques such as sentiment analysis, network analysis, and anomaly detection could uncover more nuanced patterns and improve the accuracy of detecting coordinated campaigns. The use of graph databases could also be explored to analyze connections between users and detect potential coordinated campaigns or networks of bots. This approach would allow for a deeper understanding of user interactions and the identification of sophisticated manipulation tactics. Overall, this project has provided valuable insights into the problem of coordinated campaigns on Twitter and has demonstrated the potential of data engineering and data visualization techniques for social media analysis.
-# Uncovering-Coordinated-Twitter-Campaigns-Using-Spark-and-AWS
 
