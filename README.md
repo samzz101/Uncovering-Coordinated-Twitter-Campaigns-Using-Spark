@@ -61,7 +61,7 @@ Initially, Snscrape and Sntwitter were used for data collection. Then, TwitterSe
 
 Finally, the structured data from S3 was loaded into AWS Redshift, a cloud-based data warehousing solution. Redshift was chosen for its ability to perform high-speed querying and efficiently manage large volumes of structured data. AWS QuickSight was then connected to Redshift to create an interactive dashboard that provides real-time insights into user sentiment and behavior related to the hashtag.
 
-<img width="1006" alt="Screenshot 2024-08-06 at 1 33 42 PM" src="https://github.com/user-attachments/assets/7bf28f0d-dadf-424c-89a6-cbb49f43634d">
+<img width="825" alt="Screenshot 2024-09-10 at 5 11 58 PM" src="https://github.com/user-attachments/assets/d8243c0a-bb61-4fb6-bf58-f6d5b3d28c85">
 
 This architecture ensured efficient data collection, processing, and analysis, leveraging the scalability and performance benefits of AWS services to derive valuable insights from Twitter data.
 
@@ -95,12 +95,6 @@ For the pro-Modi campaign (#Welcomemodi), the data revealed:
 * Common Users in Trends: Only 2.86% of users were common between the trends.
 
 These findings provide insights into the engagement and sentiment associated with each campaign. The similarity in the percentage of tweets with more retweets than likes across both trends suggests similar patterns in user engagement. However, the higher proportion of duplicate tweets in the pro-Modi campaign and the differences in the average time gaps between tweets reflect distinct characteristics in user behavior and campaign dynamics.
-
-<img width="789" alt="Screenshot 2024-08-06 at 1 41 01 PM" src="https://github.com/user-attachments/assets/e37217cb-ce66-431f-92b5-d11a839cbf44">
-
-<img width="679" alt="Screenshot 2024-08-06 at 1 41 25 PM" src="https://github.com/user-attachments/assets/66592684-1799-485a-bf50-e9ec1247f940">
-
-Overall, this data visualization and analysis allowed for the identification of key patterns and insights into user engagement and sentiment within the two Twitter trends. By examining metrics such as tweet counts, retweets, likes, duplicate tweets, and engagement rates, the analysis revealed distinct characteristics of each campaign.
 
 ## Conclusion
 In conclusion, this project on uncovering coordinated campaigns by analyzing artificial inflation of trend popularity on Twitter has successfully addressed its research questions and achieved its objectives. By analyzing a dataset of over 300,000 tweets, the project identified the presence of coordinated campaigns designed to artificially inflate trend popularity on Twitter. Key findings from the analysis included several notable trends and patterns, such as the high percentage of likes compared to retweets and the significant number of duplicate tweets. These insights reveal how engagement metrics can be manipulated and highlight the importance of scrutinizing social media data for authenticity.
